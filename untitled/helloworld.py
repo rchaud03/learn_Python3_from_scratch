@@ -1,1 +1,0 @@
-print("Hello,world! This is the Python class from PluralSight entitled 'Python: Getting Started' by Bo Milanovich")
