@@ -14,5 +14,22 @@ sum2 = num_method(44,87)
 print(sum1)
 print(sum2)
 
+def ismetro(city):
+    citylist = ["nyc", "miami", "lax", "atlanta"]
+    if city in citylist:
+        #return True
+        print("Yes, %s is in the metro city list" % city)
+        return True
+    else:
+        #return False
+        print("Sorry, %s is not on our metro city list" % city)
+        return False
+
+mycity = ismetro("mia")
+print(mycity)
+
+mycity2 = ismetro("boston")
+print(mycity2)
+
 
 
