@@ -1,6 +1,6 @@
 import os
-import systems
+import sys
 
 github.build.ge.com:CoreTech-Compute/misc-scripts.git install_GE_ca.py
 
-print(dir(system))
+print(dir(sys))
